@@ -1,0 +1,13 @@
+Bug de casse lors de la connexion pseudo : Lucas si je mets lucas, fonctionne aussi.
+Message d'erreur a regler : visible mais en haut de la page, donc pas au bon endroit. Modifier l'endroit pour que ce soit dans le formulaire de connexion
+Inscription: - Champs de vérification pour le mot de passe (1 seul mdp actuellement il en faut un deuxieme pour la confirmation)
+             - Faire attention a regen les reglers pour que les gens puissent taper que lettres, chiffres, majuscule, minuscule, et caractère speciaux. Sauf <>
+             - Faire attention a la longueur du mot de passe, il faut que ce soit au moins 8 caractères
+             - Faire attention a la longueur du pseudo, il faut que ce soit au moins 4 caractères
+Ajouter projet/modifier projet: - Faire attention a ce que les champs ne soient pas vides (autre que required)
+- Mettre un systeme pour que ce soit que des images qu'on peut envoyer et non des autres fichiers bizarres
+- Mettre regen pour empecher de mettre des <> dans les champs
+
+Faire tout le CSS de chaque pages
+
+Essayer de rajouter un compte administrateur, avec tout les projets de tous les utilisateurs et possibilité de supprimer un des projets ou le modifier en cas de nom incorrect ou image incorrect
